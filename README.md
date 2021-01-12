@@ -101,6 +101,8 @@
 
 11. ## How to connect react with backend?
 
+    We need to set `proxy` to backend URL in `package.json` file. Like: `"proxy": "http://localhost:8080"`. And than we can make API Calls to this URL to perform any operations on backend.
+
     ***
 
 12. ## Why use Redux in react?
