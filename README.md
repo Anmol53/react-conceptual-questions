@@ -1,8 +1,11 @@
 # React-Conceptual-Questions
 
 1.  ## What is react?
+
     _**React**_ is a JavaScript library created by **<span style="color:#2D88FF;">Facebook</span>**. It is use for creating User Interface(UI). In react we can create complex UI by creating many small `components` and combining them.
+
     ***
+
 2.  ## Differentiate between functional and class components. What do you prefer to use and in which situation?
 
     _**Functional Component:**_ It's just a function which accepts props and returns a React component. It uses react hooks to manipulate data. There are many react hooks. Like, useState(), useEffect(), etc.
@@ -93,9 +96,13 @@
     ***
 
 10. ## Have you used Context?
+
     ***
+
 11. ## How to connect react with backend?
+
     ***
+
 12. ## Why use Redux in react?
 
     When multiple components require the same data, we need to `lift the state up` until we find the common ancestor. We know that in React, data can only flow in one direction. Therefore, we will also need to create multiple callbacks to update the data. This will cause two problems. First, data will also be available to the intermediate components, even if the data is not required by them. Second, the code becomes too complex. Therefore we use _`Redux`_.
@@ -105,8 +112,13 @@
     ***
 
 13. ## Explain how to work with redux?
+
     ***
+
 14. ## What is the container pattern?
+
     ***
+
 15. ## What is middleware used for?
+
     ***
