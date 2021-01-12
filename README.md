@@ -65,7 +65,13 @@
     ***
 
 8.  ## Which life- cycle method will you use when calling an API?
+
+    if API call is not depend upon state or props data than we will use `componentDidMount()`.
+
+    `componentDidUpdate()` is used when API call is depend on state or props data.
+
     ***
+
 9.  ## How do we access the parent component in a child and vice versa. ## (in react)
     ***
 10. ## Have you used Context?
