@@ -34,6 +34,7 @@
     ***
 
 6.  ## What is the importance of Key in the map?
+    The `Keys` help <span style="color:#ff2e63;">React</span> identify which items have been changed added, or removed. Elements inside the array must be keyed to give a static identity to the elements. Most of the time we use objects id as a key. If id is not available then only we use array index. But we should try not to use an index as a key.
     ***
 7.  ## What are the life- cycle methods in react?
     ***
