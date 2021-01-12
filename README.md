@@ -3,13 +3,25 @@
 1.  ## What is react?
     _**React**_ is a JavaScript library created by **<span style="color:#2D88FF;">Facebook</span>**. It is use for creating User Interface(UI). In react we can create complex UI by creating many small `components` and combining them.
     ***
-2.  ## Differentiate between functional and class components. ## What do you prefer to use and in which situation?
+2.  ## Differentiate between functional and class components. What do you prefer to use and in which situation?
+
+    _**Functional Component:**_ It's just a function which accepts props and returns a React component. It uses react hooks to manipulate data. There are many react hooks. Like, useState(), useEffect(), etc.
+
+    _**Class Component:**_ We use ES6 class syntax to write component. We need to extend `React.Component` to create a component. We have to use life-cycle methods to manipulate the data in the class component, according to the phase of the component.
+
+    Both versions are equivalent and will give you the exact same output.
+
+    I like to use `Functional Component`. Initially, Functional Component did not have the capabilities as much as `Class Component`. Like update state and other life cycle methods. But after the v16.8 update of React, we can also do all those things in Functional Component using hooks.
+
+    I prefer Functional Component because it is simpler to write, less complex than Class Component, and has all the functionality as Class Component.
+
     ***
-3.  ## What is State and Props in react?
 
-    _`State`_ is data maintained inside a component. It is owned by that specific component. The component itself will update the state using the setState function or hook.
+3.  ## What are State and Props in react?
 
-    _`Props`_ is data passed in from a parent component. props are read-only in the child component that receives them. We need to pass callback functions, which can be executed inside the child to update **props**.
+    The _`State`_ is data maintained inside a component. It is owned by that specific component. The component itself will update the state using the setState function or useState hook.
+
+    The _`Props`_ is data passed in from a parent component. props are read-only in the child component that receives them. We need to pass callback functions, which can be executed inside the child to update **props**.
 
     ***
 
@@ -23,7 +35,7 @@
 
 5.  ## What is Virtual DOM and how it works?
 
-    The `virtual DOM` is only a virtual representation of the DOM. Everytime the state of our application changes, the virtual DOM gets updated instead of the real DOM. Like the actual DOM, the Virtual DOM is a node tree that lists elements and their attributes and content as objects and properties.
+    The `virtual DOM` is only a virtual representation of the DOM. Every time the state of our application changes, the virtual DOM gets updated instead of the real DOM. Like the actual DOM, the Virtual DOM is a node tree that lists elements and their attributes and content as objects and properties.
 
     Updation of DOM in react is 3 step process:-
 
@@ -35,7 +47,7 @@
 
 6.  ## What is the importance of Key in the map?
 
-    The `Keys` help **<span style="color:#2D88FF;">React</span>** identify which items have been changed added, or removed. Elements inside the array must be keyed to give a static identity to the elements. Most of the time we use object's `id` as a key. If id is not available then only we use array index. But we should try not to use an index as a key.
+    The `Keys` help **<span style="color:#2D88FF;">React</span>** identify which items have been changed added, or removed. Elements inside the array must be keyed to give a static identity to the elements. Most of the time we use an object's `id` as a key. If id is not available then only we use array index. But we should try not to use an index as a key.
 
     ***
 
@@ -66,17 +78,17 @@
 
 8.  ## Which life- cycle method will you use when calling an API?
 
-    if API call is not depend upon state or props data than we will use `componentDidMount()`.
+    If API call is not dependent upon state or props data than we will use `componentDidMount()`.
 
-    `componentDidUpdate()` is used when API call is depend on state or props data.
+    `componentDidUpdate()` is used when API call is dependent on state or props data.
 
     ***
 
-9.  ## How do we access the parent component in a child and vice versa. ## (in react)
+9.  ## How do we access the parent component in a child and vice versa. (in react)
 
-    We can access the parent component's data in a child component using props. The data which parent data is passing via props will be available in child components.
+    We can access the parent component's data in a child component using `props`. The data which parent data is passing via props will be available in child components.
 
-    We have to use the callback function to access the child components data in the parent components.
+    We have to use the `callback function` to access the child components data in the parent components.
 
     ***
 
