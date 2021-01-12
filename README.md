@@ -73,7 +73,13 @@
     ***
 
 9.  ## How do we access the parent component in a child and vice versa. ## (in react)
+
+    We can access parent data by using props. The data which parent data is passing via props will be available in child components.
+
+    For accessing data of child components in Parent components we have to use callback functions.
+
     ***
+
 10. ## Have you used Context?
     ***
 11. ## How to connect react with backend?
