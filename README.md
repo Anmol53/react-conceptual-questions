@@ -34,10 +34,36 @@
     ***
 
 6.  ## What is the importance of Key in the map?
-    The `Keys` help <span style="color:#ff2e63;">React</span> identify which items have been changed added, or removed. Elements inside the array must be keyed to give a static identity to the elements. Most of the time we use objects id as a key. If id is not available then only we use array index. But we should try not to use an index as a key.
+
+    The `Keys` help **<span style="color:#2D88FF;">React</span>** identify which items have been changed added, or removed. Elements inside the array must be keyed to give a static identity to the elements. Most of the time we use object's `id` as a key. If id is not available then only we use array index. But we should try not to use an index as a key.
+
     ***
+
 7.  ## What are the life- cycle methods in react?
+
+    Each component in **<span style="color:#2D88FF;">React</span>** has a lifecycle consist of three main phases.
+    The three phases are: `Mounting`, `Updating`, and `Unmounting`.
+
+    - **Mounting** phase Lifecycle methods:
+
+      1. constructor()
+      2. getDerivedStateFromProps()
+      3. render()
+      4. componentDidMount()<br><br>
+
+    - **Updating** phase Lifecycle methods
+
+      1.  getDerivedStateFromProps()
+      2.  shouldComponentUpdate()
+      3.  render()
+      4.  getSnapshotBeforeUpdate()
+      5.  componentDidUpdate()<br><br>
+
+    - **Unmounting** phase Lifecycle methods
+      1.  componentWillUnmount()
+
     ***
+
 8.  ## Which life- cycle method will you use when calling an API?
     ***
 9.  ## How do we access the parent component in a child and vice versa. ## (in react)
