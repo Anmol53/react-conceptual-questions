@@ -74,9 +74,9 @@
 
 9.  ## How do we access the parent component in a child and vice versa. ## (in react)
 
-    We can access parent data by using props. The data which parent data is passing via props will be available in child components.
+    We can access the parent component's data in a child component using props. The data which parent data is passing via props will be available in child components.
 
-    For accessing data of child components in Parent components we have to use callback functions.
+    We have to use the callback function to access the child components data in the parent components.
 
     ***
 
@@ -85,7 +85,13 @@
 11. ## How to connect react with backend?
     ***
 12. ## Why use Redux in react?
+
+    When multiple components require the same data, we need to `lift the state up` until we find the common ancestor. We know that in React, data can only flow in one direction. Therefore, we will also need to create multiple callbacks to update the data. This will cause two problems. First, data will also be available to the intermediate components, even if the data is not required by them. Second, the code becomes too complex. Therefore we use _`Redux`_.
+
+    _`Redux`_ is a state management library. Redux helps manage the global state of an application by creating a global store. From this store, any component can access the store's data and update the data.
+
     ***
+
 13. ## Explain how to work with redux?
     ***
 14. ## What is the container pattern?
