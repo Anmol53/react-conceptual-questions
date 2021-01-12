@@ -2,7 +2,7 @@
 
 1.  ## What is react?
 
-    _**React**_ is a JavaScript library created by **<span style="color:#2D88FF;">Facebook</span>**. It is use for creating User Interface(UI). In react we can create complex UI by creating many small `components` and combining them.
+    _**React**_ is a JavaScript library created by **<span style="color:#2D88FF;">Facebook</span>**. It is used to create a User Interface(UI). In react we can create complex UI by creating and combining many small `components`.
 
     ***
 
@@ -40,10 +40,10 @@
 
     The `virtual DOM` is only a virtual representation of the DOM. Every time the state of our application changes, the virtual DOM gets updated instead of the real DOM. Like the actual DOM, the Virtual DOM is a node tree that lists elements and their attributes and content as objects and properties.
 
-    Updation of DOM in react is 3 step process:-
+    Updation of DOM in **<span style="color:#2D88FF;">React</span>** is 3 step process:-
 
     1.  Whenever anything may have changed, The entire virtual DOM gets re-rendered.
-    2.  The difference between the Virtual DOM representation and a virtual DOM `snapshot` that was taken right before the update will be calculated.
+    2.  The difference between the Virtual DOM representation and a Virtual DOM `snapshot` that was taken right before the update will be calculated.
     3.  The real DOM will be updated with what has actually changed.
 
     ***
@@ -89,9 +89,9 @@
 
 9.  ## How do we access the parent component in a child and vice versa. (in react)
 
-    We can access the parent component's data in a child component using `props`. The data which parent data is passing via props will be available in child components.
+    We can access the parent component's data in a child component using `props`. The data which parent data is passing via props will be available in child component.
 
-    We have to use the `callback function` to access the child components data in the parent components.
+    We have to use the `callback function` to access the child component's data in the parent component.
 
     ***
 
