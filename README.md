@@ -136,4 +136,12 @@
 
 15. ## What is middleware used for?
 
+    `Middleware` generally refers to software services that "glue together" separate features in existing software. For **Redux**, middleware provides a third-party extension point between dispatching an action and handing the action off to the reducer.
+
+    `[ Action ] <-> [ Middleware ] <-> [ Dispatcher ]`
+
+    It can listen for all dispatches and execute code with the details of the actions and the current states. Middleware provides a powerful abstraction.
+
+    We can use Middleware for API requests, logging in between, etc. `Redux Thunk Middleware` is one of the example which is widely used with redux.
+
     ***
