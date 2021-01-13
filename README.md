@@ -132,7 +132,7 @@
 
 14. ## What is the container pattern?
 
-    In **<span style="color:#593D88;">Redux</span>** there are two type of Components.
+    In **<span style="color:#593D88;">Redux</span>** there are two types of Components.
 
     1. **Container components** :
 
