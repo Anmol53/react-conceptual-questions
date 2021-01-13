@@ -116,13 +116,17 @@
 
 12. ## Why use Redux in react?
 
-    When multiple components require the same data, we need to `lift the state up` until we find the common ancestor. We know that in React, data can only flow in one direction `(top-down)`. Therefore, we will also need to create multiple callbacks to update the data. This will cause two problems. First, data will also be available to the intermediate components, even if the data is not required by them. Second, the code becomes too complex. Therefore we use _`Redux`_.
+    When multiple components require the same data, we need to `lift the state up` until we find the common ancestor. We know that in React, data can only flow in one direction `(top-down)`. Therefore, we will also need to create multiple callbacks to update the data. This will cause two problems. First, data will also be available to the intermediate components, even if the data is not required by them. Second, the code becomes too complex. Therefore we use **<span style="color:#593D88;">Redux</span>**.
 
     _`Redux`_ is a state management library. Redux helps manage the global state of an application by creating a global store. From this store, any component can access the store's data and update the data.
 
     ***
 
 13. ## Explain how to work with redux?
+
+    The way **<span style="color:#593D88;">Redux</span>** works is simple. There is a central store that holds the entire state of the application. Each component can access the stored state without having to send down props from one component to another. There are three building parts: `actions`, `store`, and `reducers`.
+
+    `Redux` allows us to store a state in a `Redux Store` and uses actions to call reducers, which in turn manipulate a state.
 
     ***
 
