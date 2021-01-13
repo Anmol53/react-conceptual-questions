@@ -79,7 +79,7 @@
 
     ***
 
-8.  ## Which life- cycle method will you use when calling an API?
+8.  ## Which life-cycle method will you use when calling an API?
 
     If API call is not dependent upon state or props data than we will use `componentDidMount()`.
 
@@ -97,6 +97,15 @@
 
 10. ## Have you used Context?
 
+    In a `React` application, data is passed top-down (parent to child) via props, but it becomes tedious when data is required by many components within an application. `Context` provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree. Context is primarily used when some data needs to be accessible by many components at different nesting levels.
+
+    Context is designed to share data that can be considered "global" for a tree of React components, such as the current authenticated user, theme, etc.
+
+    The benefit of using Context:
+
+    - We can avoid passing props through intermediate elements.
+    - Code becomes simple.
+
     ***
 
 11. ## How to connect react with backend?
@@ -107,7 +116,7 @@
 
 12. ## Why use Redux in react?
 
-    When multiple components require the same data, we need to `lift the state up` until we find the common ancestor. We know that in React, data can only flow in one direction. Therefore, we will also need to create multiple callbacks to update the data. This will cause two problems. First, data will also be available to the intermediate components, even if the data is not required by them. Second, the code becomes too complex. Therefore we use _`Redux`_.
+    When multiple components require the same data, we need to `lift the state up` until we find the common ancestor. We know that in React, data can only flow in one direction `(top-down)`. Therefore, we will also need to create multiple callbacks to update the data. This will cause two problems. First, data will also be available to the intermediate components, even if the data is not required by them. Second, the code becomes too complex. Therefore we use _`Redux`_.
 
     _`Redux`_ is a state management library. Redux helps manage the global state of an application by creating a global store. From this store, any component can access the store's data and update the data.
 
