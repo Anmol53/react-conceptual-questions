@@ -132,6 +132,26 @@
 
 14. ## What is the container pattern?
 
+    In **<span style="color:#593D88;">Redux</span>** there are two type of Components.
+
+    1. **Container components** :
+
+       - components that are aware of Redux.
+       - Are concerned with how things work.
+       - Provide the data and behavior to presentational or other container components.
+         <br><br>
+
+    2. **Presentational components** :
+       - components that are not aware of Redux.
+       - Are concerned with how things look.
+       - Receive data and callbacks exclusively via props.
+         <br><br>
+
+    Benefits of This Approach
+
+    - **Better reusability:** We can use the same presentational component in many places.
+    - **Better understandability:** We can understand our app and UI better by writing components this way.
+
     ***
 
 15. ## What is middleware used for?
