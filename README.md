@@ -2,7 +2,7 @@
 
 1.  ## What is react?
 
-    _**React**_ is a JavaScript library created by **<span style="color:#2D88FF;">Facebook</span>**. It is used to create a User Interface(UI). In react we can create complex UI by creating and combining many small `components`.
+    _**React**_ is a JavaScript library created by **<span style="color:#2D88FF;">Meta</span>** (formerly Facebook). It is used to create a User Interface(UI). In react we can create complex UI by creating and combining many small `components`.
 
     ***
 
